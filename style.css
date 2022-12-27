@@ -1,0 +1,102 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.okay{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../Photograpy/background.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-left: 6%;
+    padding-right: 6%;
+    box-sizing: border-box;
+}
+.navbar{
+    height: 12%;
+    display: flex;
+    align-items: center;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: orangered;
+    font-family: cursive;
+}
+nav ul li a:hover{
+    color: blue;
+    transition: 0.5s;
+}
+.row{
+    display: flex;
+    height: 88%;
+    align-items: center;
+}
+.col{
+    flex-basis: 50%;
+}
+h1{
+    color: white;
+    font-size: 80px;
+}
+p{
+    color: white;
+    font-size: 11px;
+    line-height: 15px;
+}
+button{
+    width: 150px;
+    color: orangered;
+    font-size: 15px;
+    padding: 12px 0;
+    background: white;
+    border: 0;
+    border-radius: 20px;
+    outline: none;
+    margin-top: 25px;
+}
+button:hover{
+    color: blue;
+    transition: 0.5s;
+}
+.two{
+    width: 180px;
+    height: 210px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: center;
+    background-size: cover;
+    margin-top: 10px;
+}
+.two1{
+    background-image: url(../Photograpy/pic1.jpg);
+}
+.two2{
+    background-image: url(../Photograpy/pic2.jpg);
+}
+.two3{
+    background-image: url(../Photograpy/pic3.jpg);
+}
+.two4{
+    background-image: url(../Photograpy/pic4.jpg);
+}
+.two:hover{
+    transform: translateX(-10px);
+}
+h5{
+    color: red;
+    text-shadow: 0 0 5px greenyellow;
+}
