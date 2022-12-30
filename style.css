@@ -6,7 +6,7 @@
 .okay{
     width: 100%;
     height: 100vh;
-    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../Photograpy/background.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(./Img/background.jpg);
     background-position: center;
     background-size: cover;
     padding-left: 6%;
@@ -82,16 +82,16 @@ button:hover{
     margin-top: 10px;
 }
 .two1{
-    background-image: url(../Photograpy/pic1.jpg);
+    background-image: url(./Img/pic1.jpg);
 }
 .two2{
-    background-image: url(../Photograpy/pic2.jpg);
+    background-image: url(./Img/pic2.jpg);
 }
 .two3{
-    background-image: url(../Photograpy/pic3.jpg);
+    background-image: url(./Img/pic3.jpg);
 }
 .two4{
-    background-image: url(../Photograpy/pic4.jpg);
+    background-image: url(./Img/pic4.jpg);
 }
 .two:hover{
     transform: translateX(-10px);
